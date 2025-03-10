@@ -1,29 +1,47 @@
+
+
 <script>
-  import { onMount } from "svelte";
-    import viewport from "../useViewportAction";
+  import viewport from "../useViewportAction";
   import currentProject from "./currentProject";
   import currentContent from "./currentContent";
-  import ProjectDisplay from "./ProjectDisplay.svelte";
-    let active = false
-    let open = false
-   
 
-    export let tag = "Crystal Simulator"
-    let content
+  // Pre-import all content components
+  import COVIDVisualizer from "./content/COVID-19 Visualizer.svelte";
+  import CallOpener from "./content/Call Opener.svelte";
+  import Connect4AI from "./content/Connect 4 AI.svelte";
+  import CrystalSimulator from "./content/Crystal Simulator.svelte";
+  import GraphExplainer from "./content/Graph Algorithm Explainer.svelte";
+  import NewtonianFractals from "./content/Newtonian Fractals.svelte";
+  import NBodyPendulum from "./content/N-Body Pendulum.svelte";
+  import RSAEncrypter from "./content/RSA Encrypter.svelte";
+  import Sudoku from "./content/Sudoku.svelte";
+  import WaveSimulator from "./content/Wave Simulator.svelte";
+  import Template from "./content/template.svelte";
 
-    const contentPath = "./content/" + tag + ".svelte"
-    onMount(async () => {
-        content = (await import(contentPath)).default
-    })
+  export let tag = "Crystal Simulator";
+  let active = false;
 
-    let toggleDisplay = () => {
-        currentContent.set(content)
-        currentProject.set(tag)
-    }
-    
+  const contentMap = {
+    "COVID-19 Visualizer": COVIDVisualizer,
+    "Call Opener": CallOpener,
+    "Connect 4 AI": Connect4AI,
+    "Crystal Simulator": CrystalSimulator,
+    "Graph Algorithm Explainer": GraphExplainer,
+    "Newtonian Fractals": NewtonianFractals,
+    "N-Body Pendulum": NBodyPendulum,
+    "RSA Encrypter": RSAEncrypter,
+    "Sudoku": Sudoku,
+    "Wave Simulator": WaveSimulator,
+    "template": Template,
+  };
 
-
+  const toggleDisplay = () => {
+    const content = contentMap[tag];
+    currentContent.set(content);
+    currentProject.set(tag);
+  };
 </script>
+
 
 
 

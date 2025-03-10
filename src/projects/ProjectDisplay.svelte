@@ -180,7 +180,7 @@ class:unmountingMain={!active}>
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-color: rgb(0, 120, 240, 0.2);
+        background-color: rgb(0, 20, 70, 0.8);
         z-index: 3;
         backdrop-filter: blur(5px) saturate(0.3) brightness(0.4);
 
