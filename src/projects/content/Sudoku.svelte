@@ -15,7 +15,7 @@
     const downloadLink = "/projects/Sudoku/app.jar"
     const downloadLabel = "Download JAR"
     
-    const sourceLink = "https://github.com/Seth-Lupo/Sudoku"
+    const sourceLink = "www.sethlupo.com/Sudoku"
 
 
 

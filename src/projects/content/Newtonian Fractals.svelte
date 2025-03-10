@@ -15,7 +15,7 @@
     const downloadLink = "https://mybinder.org/v2/gh/Seth-Lupo/Newtonian-Fractals/d219abdef41b51209b4ef1342b9d4a9c8b4bd0e3"
     const downloadLabel = "Run Binder"
     
-    const sourceLink = "https://github.com/Seth-Lupo/Newtonian-Fractals/blob/master/Newtonian%20Fractals.ipynb"
+    const sourceLink = "www.sethlupo.com/Newtonian-Fractals/blob/master/Newtonian%20Fractals.ipynb"
 
 
 

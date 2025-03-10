@@ -15,7 +15,7 @@
     const downloadLink = "/projects/Wave Simulator/sim.jar"
     const downloadLabel = "Download JAR"
     
-    const sourceLink = "https://github.com/Seth-Lupo/WaveMaker"
+    const sourceLink = "www.sethlupo.com/WaveMaker"
 
 
 

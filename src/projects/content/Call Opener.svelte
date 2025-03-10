@@ -15,7 +15,7 @@
     const downloadLink = "/projects/Call Opener/app.jar"
     const downloadLabel = "Download JAR"
     
-    const sourceLink = "https://github.com/Seth-Lupo/Call-Opener"
+    const sourceLink = "www.sethlupo.com/Call-Opener"
 
 
 

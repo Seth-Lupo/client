@@ -15,7 +15,7 @@
     const downloadLink = "https://mybinder.org/v2/gh/Seth-Lupo/Connect-4-AI.git/HEAD"
     const downloadLabel = "Run Binder"
     
-    const sourceLink = "https://github.com/Seth-Lupo/Connect-4-AI"
+    const sourceLink = "www.sethlupo.com/Connect-4-AI"
 
 
 

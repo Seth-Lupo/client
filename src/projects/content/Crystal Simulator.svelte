@@ -15,7 +15,7 @@
     const downloadLink = "/projects/Crystal Simulator/sim.jar"
     const downloadLabel = "Download JAR"
     
-    const sourceLink = "https://github.com/Seth-Lupo/CrystalSimulator"
+    const sourceLink = "www.sethlupo.com/CrystalSimulator"
 
 
 

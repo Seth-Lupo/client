@@ -15,7 +15,7 @@
     const downloadLink = "/projects/N-Body Pendulum/sim.jar"
     const downloadLabel = "Download JAR"
     
-    const sourceLink = "https://github.com/Seth-Lupo/NBodyPendulum"
+    const sourceLink = "www.sethlupo.com/NBodyPendulum"
 
 
 

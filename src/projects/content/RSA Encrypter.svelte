@@ -15,7 +15,7 @@
     const downloadLink = "/projects/RSA Encrypter/app.jar"
     const downloadLabel = "Download JAR"
     
-    const sourceLink = "https://github.com/Seth-Lupo/RSA-Encrypter"
+    const sourceLink = "www.sethlupo.com/RSA-Encrypter"
 
 
 

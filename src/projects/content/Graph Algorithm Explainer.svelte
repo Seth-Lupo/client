@@ -15,7 +15,7 @@
     const downloadLink = "https://seth-lupo.github.io/Coronavirus-Deaths-Visualization/"
     const downloadLabel = "Visit Site"
     
-    const sourceLink = "https://github.com/Seth-Lupo/Coronavirus-Deaths-Visualization"
+    const sourceLink = "www.sethlupo.com/Coronavirus-Deaths-Visualization"
 
 
 
